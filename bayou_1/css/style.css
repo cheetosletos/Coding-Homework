@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1{
+  font-family: 'Amatic SC', cursive;
+}
+
+h2{
+  font-family: 'Amatic SC', cursive;
+}
+
+h3{
+  font-family: 'Amatic SC', cursive;
+}
+
+h4{
+  font-family: 'Amatic SC', cursive;
+}
+
+h5{
+  font-family: 'Amatic SC', cursive;
+}
+
+p{
+  font-family: 'Josefin Slab', serif;
+}
+
+/*----------HEADER------------*/
+.header{
+  margin:10px;
+  padding: 10px;
+  background-color: none;
+  position: absolute;
+}
+
+.header img{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #111111;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #34853B;
+}
+
+nav .img{
+   width: 20%;
+  height: auto;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
