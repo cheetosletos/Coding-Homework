@@ -1,0 +1,74 @@
+body,*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.image {
+  background-image: url('../images/ghibli_rain.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  width: 100%;
+}
+
+/* ------------- HEADER ------------- */
+
+header {
+
+}
+
+header img{
+  margin: 5px;
+  padding: 5px;
+  width: 20%;
+  height: auto;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+.nav img{
+  
+}
+
+/*START UL CODE ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: none;
+    display: inline-block;
+    list-style-type: none;
+  }
+
+li {
+    float: left;
+}
+
+li img{
+  width: 100%;
+
+.soot li a: hover
+  background: url();
+} END UL CODE*/
+ 
+/* START a HOVER GIF CODE.soot1 {
+  background: url('../images/soot1.png');
+  background-repeat: no-repeat;
+  margin:auto;
+
+}
+
+.soot1:hover {
+  cursor:pointer; 
+  background:url('../images/Soot_Welcome.gif');
+  background-repeat: no-repeat;
+} END A HOVER GIF CODE*/
+
+
+
+
+
+
