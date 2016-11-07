@@ -1,0 +1,74 @@
+body,*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.image {
+  background-image: url('../images/ducks.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  min-height: 1024px;
+  width: 100%;
+}
+
+/* ------------- HEADER ------------- */
+
+header {
+    float: left;
+    position: fixed;
+}
+
+.container{
+  width: 96%;
+  max-width: 1500px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+.image img{
+    width:13%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 250px;
+}
+
+li {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fb849d;
+}
+
+.active {
+    background-color: #fb849d;
+}
