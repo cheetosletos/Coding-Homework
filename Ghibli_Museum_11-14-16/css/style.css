@@ -1,0 +1,964 @@
+body,*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* ---------------------------- HOME PAGE ---------------------------- */
+.image {
+  background-image: url('../images/ghibli_rain.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  width: 100%;
+}
+
+/* ------------- header ------------- */
+
+header {
+
+}
+
+.container{
+  width: 96%;
+  max-width: 1500px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* ---------- home nav ---------- */
+
+.col{
+  width:20%;
+  height:500px;
+  position:relative;
+  float:left;
+}
+
+
+a.soot1{
+  background-image:url(../images/soot1.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right:0;
+}
+
+a.soot1:hover{
+  background-image:url(../images/soot1.gif);
+}
+
+a.soot2{
+  background-image:url(../images/soot2.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top: 70%;
+  right:0;
+}
+
+a.soot2:hover{
+  background-image:url(../images/soot2.gif);
+}
+
+a.soot3{
+  background-image:url(../images/soot3.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top:75%;
+  right:0;
+}
+
+a.soot3:hover{
+  background-image:url(../images/soot3.gif);
+}
+
+a.soot4{
+  background-image:url(../images/soot4.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top:50%;
+  right:0;
+}
+
+a.soot4:hover{
+  background-image:url(../images/soot4.gif);
+}
+
+a.soot5{
+  background-image:url(../images/soot5.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top: 65%;
+  right:0;
+}
+
+a.soot5:hover{
+  background-image:url(../images/soot5.gif);
+}
+
+footer img{
+  margin: 10px;
+  margin-top: 10%;
+  padding: 15px;
+  width: 10%;
+  height: auto;
+  float: right;
+}
+
+@media screen and (max-width: 800px){
+      .col{
+          float: none;
+          width: 100%;
+          height: 300px;
+      }
+}
+
+
+
+
+
+/* ---------------------------- WELCOME PAGE ---------------------------- */
+
+
+#WelcomePage h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+}
+
+#WelcomePage h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 30px;
+}
+
+#WelcomePage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#WelcomePage .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ---------- Nav Bar ---------- */
+/* #WelcomePage .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+#WelcomePage .logo img{
+    width:13%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+#WelcomePage .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 250px;
+}
+
+#WelcomePage .navbar li {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+}
+
+#WelcomePage .navbar li a {
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+}
+
+#WelcomePage .navbar li a:hover {
+    background-color: #fb849d;
+}
+
+#WelcomePage .active {
+    background-color: #fb849d;
+} */
+
+#WelcomePage .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#WelcomePage ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#WelcomePage ul.topnav li {
+  float: right;
+}
+
+#WelcomePage ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#WelcomePage ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#WelcomePageul.topnav li.icon {
+  display: none;
+}
+
+#WelcomePage .active {
+    background-color: #fb849d;
+}
+
+#WelcomePage @media screen and (max-width:680px) {
+  #WelcomePage ul.topnav li:not(:first-child) {display: none;}
+  
+  #WelcomePage ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+#WelcomePage @media screen and (max-width:680px) {
+  
+  #WelcomePage ul.topnav.responsive {
+    position: relative;
+  }
+  #WelcomePage ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #WelcomePage ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  #WelcomePage ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* ---------- Content ---------- */
+#WelcomePage .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#WelcomePage .wrapper{
+  width: 100%;
+  margin: 0 auto;
+ background-color: rgba(235, 240, 244, 0.8);
+}
+
+#WelcomePage .wrapper img{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  }
+
+#WelcomePage h2 a{
+  text-decoration: overline;
+  color: #ffffff;
+}
+
+#WelcomePage h2 a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+#WelcomePage p a{
+  text-decoration: overline;
+  color: #363636;
+}
+
+#WelcomePage p a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+
+
+
+
+
+
+/* ---------------------------- MIYAZAKI LETTER PAGE ---------------------------- */
+
+
+#Miyazaki-Letter h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+}
+
+#Miyazaki-Letter h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  color: #363636;
+  padding: 10px;
+}
+
+#Miyazaki-Letter h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: px;
+  color: #363636;
+  padding: 10px;
+}
+
+#Miyazaki-Letter p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 20px;
+  font-kerning: 10px;
+}
+
+#Miyazaki-Letter .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  width: 100%;
+}
+
+/* ---------- Nav Bar ---------- */
+
+#Miyazaki-Letter .logo img{
+    width:13%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+/* #Miyazaki-Letter .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 250px;
+}
+
+#Miyazaki-Letter .navbar li {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+}
+
+#Miyazaki-Letter .navbar li a {
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+}
+
+#Miyazaki-Letter .navbar li a:hover {
+    background-color: #fb849d;
+}
+
+#Miyazaki-Letter .active {
+    background-color: #fb849d;
+} */
+
+#Miyazaki-Letter .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#Miyazaki-Letter ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#Miyazaki-Letter ul.topnav li {
+  float: right;
+}
+
+#Miyazaki-Letter ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#Miyazaki-Letter ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#Miyazaki-Letter ul.topnav li.icon {
+  display: none;
+}
+
+#Miyazaki-Letter @media screen and (max-width:768px) {
+  
+  #Miyazaki-Letter ul.topnav li:not(:first-child) {
+    display: none;
+
+  }
+  
+  #Miyazaki-Letter ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+#Miyazaki-Letter .active {
+    background-color: #fb849d;
+}
+
+#Miyazaki-Letter @media screen and (max-width:768px) {
+  
+  #Miyazaki-Letter ul.topnav.responsive {
+    position: relative;
+  }
+
+  #Miyazaki-Letter ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  #Miyazaki-Letter ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  
+  #Miyazaki-Letter ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/* ---------- Content ---------- */
+#Miyazaki-Letter .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#Miyazaki-Letter .wrapper{
+  width: 100%;
+  margin: 0 auto;
+ background-color: rgba(235, 240, 244, 0.8);
+}
+
+#Miyazaki-Letter .wrapper img{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  }
+
+#Miyazaki-Letter .letter ul{
+  padding: 10px
+}
+
+#Miyazaki-Letter .letter li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#Miyazaki-Letter .signature{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+
+
+
+
+/* ---------------------------- SCREENINGS PAGE ---------------------------- */
+
+
+#Screenings h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+}
+
+#Screenings h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 30px;
+}
+
+#Screenings p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#Screenings .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ---------- Nav Bar ---------- */
+/* #Screenings .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+#Screenings .logo img{
+    width:13%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+#Screenings .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 250px;
+}
+
+#Screenings .navbar li {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+}
+
+#Screenings .navbar li a {
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+}
+
+#Screenings .navbar li a:hover {
+    background-color: #fb849d;
+}
+
+#Screenings .active {
+    background-color: #fb849d;
+} */
+
+#Screenings .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#Screenings ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#Screenings ul.topnav li {
+  float: right;
+}
+
+#Screenings ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#Screenings ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#WelcomePageul.topnav li.icon {
+  display: none;
+}
+
+
+
+#Screenings @media screen and (max-width:680px) {
+  #Screenings ul.topnav li:not(:first-child) {display: none;}
+  
+  #Screenings ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+#Screenings .active {
+    background-color: #fb849d;
+} 
+
+#Screenings @media screen and (max-width:680px) {
+  
+  #Screenings ul.topnav.responsive {
+    position: relative;
+  }
+  #Screenings ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #Screenings ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  #Screenings ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* ---------- Content ---------- */
+#Screenings .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#Screenings .wrapper{
+  width: 100%;
+  margin: 0 auto;
+ background-color: rgba(235, 240, 244, 0.8);
+}
+
+#Screenings .wrapper img{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  }
+
+#Screenings .wrapper ul{
+  padding: 10px
+}
+
+#Screenings .wrapper li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------- INFORMATION PAGE ---------------------------- */
+
+
+#InformationPage h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+}
+
+#InformationPage h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 30px;
+}
+
+#InformationPage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#InformationPage .backgroundimg{
+  background: url('../images/princess_mononoke.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ---------- Nav Bar ---------- */
+/* #InformationPage .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+#InformationPage .logo img{
+    width:13%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+#InformationPage .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 250px;
+}
+
+#InformationPage .navbar li {
+    font-family: 'Julius Sans One', sans-serif;
+    float: left;
+}
+
+#InformationPage .navbar li a {
+    display: inline-block;
+    color: #363636;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+}
+
+#InformationPage .navbar li a:hover {
+    background-color: #fb849d;
+}
+
+#InformationPage .active {
+    background-color: #fb849d;
+} */
+
+#InformationPage .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#InformationPage ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#InformationPage ul.topnav li {
+  float: right;
+}
+
+#InformationPage ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#InformationPage ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#InformationPage ul.topnav li.icon {
+  display: none;
+}
+
+#InformationPage .active {
+    background-color: #fb849d;
+}
+
+
+#InformationPage @media screen and (max-width:680px) {
+  #InformationPage ul.topnav li:not(:first-child) {display: none;}
+  
+  #InformationPage ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+#InformationPage @media screen and (max-width:680px) {
+  
+  #InformationPage ul.topnav.responsive {
+    position: relative;
+  }
+  #InformationPage ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #InformationPage ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  #InformationPage ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* ---------- Content ---------- */
+#InformationPage .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#InformationPage .wrapper{
+  width: 100%;
+  margin: 0 auto;
+ background-color: rgba(235, 240, 244, 0.8);
+}
+
+#InformationPage .wrapper img{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  }
+
+#InformationPage p a{
+  text-decoration: overline;
+  color: #363636;
+}
+
+#InformationPage p a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+#InformationPage .wrapper ul{
+  padding: 10px
+}
+
+#InformationPage .wrapper li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
