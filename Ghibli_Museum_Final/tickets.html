@@ -1,0 +1,193 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome page for the official Ghibli Museum of Hayao Miyazaki and Studio Ghibli, Mikata Japan">
+	<meta name="keywords" content="ghibli, museum, ghibli museum, miyazaki, studio, studio ghibli, studio ghibli museum, films, studio ghibli films, mikata, japan, mikata japan, tokyo, animation, tickets, admissions, ticket information, admission information, visit">
+	<title>The Official Museum of Studio Ghibli</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet"> 
+	<script href="JavaScript/navbar.js" type="text/javascript"></script> 
+	<meta name="viewport" content="width=device-width">
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84836382-1', 'auto');
+  ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body id="TicketPage">
+<div class="backgroundimg">
+
+
+<!-- _________________Navbar_________________ -->
+
+<header>
+
+	<div class="logo">
+		<a href="index.html"><img src="images/logo.png" alt="Logo for the Official Ghibli Museum"></a>
+	</div>
+ 
+ <ul class="topnav" id="myTopnav">
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="special_events.html">Special Events</a></li>
+		<li><a href="information.html">Information</a></li>
+		<li><a class="active" href="tickets.html">Tickets</a></li>
+		<li><a href="welcome.html">Welcome</a></li>
+</ul>
+
+<ul class="topnav icon" id="myTopnav">	
+	<li class="icon">
+    	<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  	</li>
+</ul>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+</header>
+<div style="clear:both;"></div>
+
+<div class="container">
+
+<!--__________________________________ CONTENT _______________________________________ -->
+
+<div class="wrapper">
+
+<div class="visit"><h1>Visit</h1>
+
+	<div class="banner1">
+
+		<table>
+		  <tr>
+		    <th>Museum Hours</th>
+		    <th>Address</th>
+		  </tr>
+		  <tr>
+		    <td>10am - 6pm</td>
+		    <td><address>1 Chome-1-83 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan</address></td> 
+		  </tr>
+		  <tr>
+		    <td>The Museum is closed every Tuesday and on the Holidays</td>
+		    <td></td> 
+		  </tr>
+		</table>
+
+		<p>See <a href="information.html">Museum Calendar</a> for more information</p>
+
+	</div>	<!-- BANNER 1 -->
+
+	<div class="banner2">
+		<h1>ADMISSIONS</h1>	
+
+		<form>
+			<div class="admissions">
+				
+				<fieldset><!-- ADULT TIX -->
+					<legend><span class="bubble">Adult Tickets</span></legend>
+					<label for="price">Admission: $10.00</label>
+					<input type="number" name="field1" placeholder="Quantity">    
+				</fieldset>
+
+
+			
+
+				<fieldset><!-- STUDENT TIX -->
+					<legend><span class="bubble">Student Tickets</span></legend>
+					<label for="price">Admission: $7.00</label>
+					<input type="number" name="field2" placeholder="Quantity">    
+				</fieldset>
+
+
+
+				<fieldset><!--  CHILD TIX -->
+					<legend><span class="bubble">Chlidren ( 14 & under ) Tickets</span></legend>
+					<label for="price">Admission: $4.00</label>
+					<input type="number" name="field3" placeholder="Quantity">    
+				</fieldset>
+
+
+
+				<fieldset><!-- UNDER 4 TIX -->
+					<legend><span class="bubble">Chlidren Under 4 Tickets</span></legend>
+					<label for="price">Admission: FREE!</label>
+					<input type="number" name="field" placeholder="Quantity">    
+				</fieldset>
+
+				<input type="button" onClick="location.href='ticket_overview.html'" value="CONTINUE">
+			
+			</div><!-- ADMISSIONS -->
+
+		</form>
+
+	
+	</div> <!-- BANNER 2 -->
+
+
+<div style="clear:both;"></div>	
+</div> <!-- VISIT -->
+</div> <!-- WRAPPER -->
+
+
+<!--__________________________________ SMALL SCREENS ______________________________________-->
+<div class="small">
+
+<div class="visit"><h1>Visit</h1>
+
+	<div class="banner1">
+
+		    <h4>Museum Hours</h4>
+		    <p>10am - 6pm</p>
+		    <p>The Museum is closed every Tuesday and on the Holidays</p>
+			<p>See <a href="information.html">Museum Calendar</a> for more information</p>
+
+
+		    <h4>Address</h4>
+		    <address>1 Chome-1-83 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan</address> 
+
+		    <div style="clear:both;"></div>
+	</div>	<!-- BANNER 1 -->
+
+	<h1>Admissions</h1>
+
+	<div class="banner2">
+		<div class="tix">	
+			<p>ADULT: $10.00</p>
+			<p>STUDEDNT: $7.00</p>
+			<p>CHILD: $4.00</p>
+			<p>UNDER 4 YRS: FREE</p>
+		</div><!-- TIX -->
+			<input type="button" onClick="location.href='ticket_overview.html'" value="PURCHASE TICKETS NOW">		
+	</div>
+
+</div><!-- VISIT -->
+</div> <!-- small -->
+
+
+
+
+<footer>
+	
+</footer>
+
+</div> <!-- CONTAINER -->
+</body>
+
+</html>
