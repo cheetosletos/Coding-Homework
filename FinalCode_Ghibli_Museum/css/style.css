@@ -1,0 +1,3584 @@
+body,*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ---------------------------- HOME PAGE ---------------------------- */
+#HomePage .backgroundimg {
+  background-image: url('../images/ghibli_rain.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  width: 100%;
+}
+
+/* ------------- header ------------- */
+
+#HomePage .container{
+  width: 96%;
+  max-width: 1500px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* ---------- home nav ---------- */
+
+#HomePage .col{
+  width:20%;
+  height:500px;
+  position:relative;
+  float:left;
+}
+
+
+#HomePage a.soot1{
+  background-image:url(../images/soot1.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right:0;
+}
+
+#HomePage a.soot1:hover{
+  background-image:url(../images/soot1.gif);
+}
+
+#HomePage a.soot2{
+  background-image:url(../images/soot2.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top: 70%;
+  right:0;
+}
+
+#HomePage a.soot2:hover{
+  background-image:url(../images/soot2.gif);
+}
+
+#HomePage a.soot3{
+  background-image:url(../images/soot3.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top:75%;
+  right:0;
+}
+
+#HomePage a.soot3:hover{
+  background-image:url(../images/soot3.gif);
+}
+
+#HomePage a.soot4{
+  background-image:url(../images/soot4.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top:50%;
+  right:0;
+}
+
+#HomePage a.soot4:hover{
+  background-image:url(../images/soot4.gif);
+}
+
+#HomePage a.soot5{
+  background-image:url(../images/soot5.png);
+  width:300px;
+  height:300px;
+  display: block;
+  position: absolute;
+  top: 65%;
+  right:0;
+}
+
+#HomePage a.soot5:hover{
+  background-image:url(../images/soot5.gif);
+}
+
+#HomePage footer img{
+  margin: 10px;
+  margin-top: 10%;
+  padding: 15px;
+  width: 10%;
+  height: auto;
+  float: right;
+}
+
+@media screen and (max-width: 1300px){
+      #HomePage .col{
+          float: none;
+          width: 100%;
+          height: 300px;
+      }
+}
+
+
+
+
+
+
+
+/* ---------------------------- WELCOME PAGE ---------------------------- */
+
+
+#WelcomePage h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+}
+
+#WelcomePage h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 30px;
+}
+#WelcomePage h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  color: #F3CEC8;
+  padding: 30px;
+}
+
+#WelcomePage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #bdbdbd;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#WelcomePage .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#WelcomePage header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#WelcomePage .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#WelcomePage ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#WelcomePage ul.topnav li {
+  float: right;
+}
+
+#WelcomePage ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#WelcomePage ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#WelcomePage ul.topnav.icon{
+  display: none;
+}
+
+#WelcomePage .active {
+    background-color: #fb849d;
+}
+
+
+@media screen and (max-width:795px) {
+  #WelcomePage ul.topnav{display: none;}
+
+  #WelcomePage ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #WelcomePage ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #WelcomePage ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #WelcomePage ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #WelcomePage ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+/* ---------- Content ---------- */
+
+#WelcomePage .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#WelcomePage .wrapper{
+  width: 100%;
+  margin: 0 auto;
+ background-color: rgba(235, 240, 244, 0.8);
+}
+
+#WelcomePage .wrapper.text{
+  position: relative;
+  margin-top: 200px;
+}
+
+#WelcomePage .wrapper.text img{
+  margin-top:0px;
+}
+
+#WelcomePage .bounding{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#WelcomePage .wrapper img{
+  width:100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+
+#WelcomePage .banner{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(16, 18, 20, 0.8);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#WelcomePage .banner h3{
+  font-size: 40px;
+  text-align: center;
+}
+
+#WelcomePage .banner p{
+  text-align: center;
+}
+
+#WelcomePage h2 a{
+  text-decoration: overline;
+  color: #ffffff;
+}
+
+#WelcomePage h2 a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+#WelcomePage p a{
+  text-decoration: overline;
+  color: #bdbdbd;
+}
+
+#WelcomePage p a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+
+
+
+/*----------------- HOVER EFFECT ----------------- */
+#WelcomePage .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+#WelcomePage .hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+#WelcomePage .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#WelcomePage.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+#WelcomePage .hovereffect:hover img {
+  color: #000000;
+  filter: brightness(0.3);
+  -webkit-filter: brightness(0.3);
+}
+
+
+#WelcomePage .hovereffect a, .hovereffect p {
+  color: #bdbdbd;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+#WelcomePage .hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+@media screen and (max-width:795px) {
+  #WelcomePage .hovereffect{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+
+    #WelcomePage .banner{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+
+  #WelcomePage .wrapper.text img{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+
+@media screen and (min-width:796px) {
+  #WelcomePage .small{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:795px) {
+  #WelcomePage .small{
+    max-height: auto !important;
+    display: block !important;
+  }
+
+  #WelcomePage .small.wrapper{
+    margin-top: 50px;
+  }
+
+  #WelcomePage .small h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+  }
+
+#WelcomePage .small h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+  }
+#WelcomePage .small h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px;
+  }
+
+#WelcomePage .small p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #363636;
+  padding: 10px;
+  font-kerning: 10px;
+  }
+
+  #WelcomePage .small img{
+    margin-top: 0px;
+  }
+
+  #WelcomePage p a{
+    text-decoration: overline;
+    color: #363636;
+  }
+
+  #WelcomePage p a:hover{
+    text-decoration: overline;
+    color: #fb849d;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------- MIYAZAKI LETTER ------------------------------*/
+#MiyazakiLetter h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+  color: #fb849d;
+  padding: 10px;
+  text-align: center;
+}
+
+#MiyazakiLetter h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  color: #363636;
+  padding: 10px;
+}
+
+#MiyazakiLetter h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: px;
+  color: #363636;
+  padding: 10px;
+}
+
+#MiyazakiLetter p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #bdbdbd;
+  padding: 20px;
+  font-kerning: 10px;
+}
+
+#MiyazakiLetter .backgroundimg{
+  background: url('../images/hayao-miyazaki.jpg') no-repeat center center fixed;
+   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  width: 100%;
+}
+
+/* ---------- Navigation Bar ---------- */
+#MiyazakiLetter header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#MiyazakiLetter .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#MiyazakiLetter ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#MiyazakiLetter ul.topnav li {
+  float: right;
+}
+
+#MiyazakiLetter ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#MiyazakiLetter ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#MiyazakiLetter ul.topnav.icon{
+  display: none;
+}
+
+#MiyazakiLetter .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #MiyazakiLetter ul.topnav{display: none;}
+
+  #MiyazakiLetter ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #MiyazakiLetter ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #MiyazakiLetter ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #MiyazakiLetter ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #MiyazakiLetter ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* ---------- Content ---------- */
+#MiyazakiLetter .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#MiyazakiLetter .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 400px;
+  background-color: rgba(0, 0, 0, 0.90)
+}
+
+#MiyazakiLetter .banner1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(54, 54, 54, 0.76);
+}
+
+#MiyazakiLetter .banner2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(97, 97, 97, 0.75);
+}
+
+#MiyazakiLetter .banner2 ul{
+  padding: 10px
+}
+
+#MiyazakiLetter .banner2 li{
+  text-decoration: none;
+  color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#MiyazakiLetter .banner3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(54, 54, 54, 0.76);
+}
+
+#MiyazakiLetter .banner4{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(97, 97, 97, 0.75);
+}
+
+#MiyazakiLetter .banner5{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(54, 54, 54, 0.76);
+}
+
+#MiyazakiLetter .banner6{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(97, 97, 97, 0.75);
+}
+
+#MiyazakiLetter .banner7{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(54, 54, 54, 0.76);
+}
+
+#MiyazakiLetter .banner8{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(97, 97, 97, 0.75);
+}
+
+#MiyazakiLetter .banner9{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(54, 54, 54, 0.76);
+}
+
+#MiyazakiLetter .signature img{
+  width: 30%;
+  float: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- SCREENINGS PAGE ---------------------------- */
+
+
+#Screenings h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#Screenings h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 30px;
+}
+
+#Screenings h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 35px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#Screenings p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#Screenings .backgroundimg{
+  background: url('../images/coal_room.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ---------- Navigation Bar ---------- */
+#Screenings header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#Screenings .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#Screenings ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#Screenings ul.topnav li {
+  float: right;
+}
+
+#Screenings ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#Screenings ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#Screenings ul.topnav.icon{
+  display: none;
+}
+
+#Screenings .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #Screenings ul.topnav{display: none;}
+
+  #Screenings ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #Screenings ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #Screenings ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #Screenings ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #Screenings ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+/* ---------- Content ---------- */
+#Screenings .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#Screenings .wrapper{
+  width: 100%;
+  margin: 0 auto;
+ background-color: rgba(235, 240, 244, 0.8);
+}
+
+#Screenings .wrapper img{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  }
+
+#Screenings .wrapper ul{
+  padding: 10px
+}
+
+#Screenings .wrapper li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+/*----------------- HOVER EFFECT ----------------- */
+#Screenings .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+#Screenings .hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+#Screenings .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#Screenings.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+#Screenings .hovereffect:hover img {
+  color: #000000;
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
+}
+
+
+#Screenings .hovereffect a, .hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+#Screenings .hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+@media screen and (max-width:795px) {
+  #Screenings .hovereffect{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:795px) {
+  #Screenings .desktop{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (min-width:796px) {
+  #Screenings .small{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:795px) {
+  #Screenings .small{
+    max-height: auto !important;
+    display: block !important;
+  }
+
+  #Screenings .small h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+  }
+
+#Screenings .small h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgba(16, 18, 20, 0.8);
+  padding: 10px;
+  }
+#Screenings .small h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px;
+  }
+
+#Screenings .small p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #363636;
+  padding: 10px;
+  font-kerning: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- TICKET PAGE ---------------------------- */
+
+#TicketPage header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#TicketPage h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  color: #fb849d;
+  padding: 30px;
+  text-align: center;
+}
+
+#TicketPage h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketPage h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketPage h4{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketPage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-kerning: 10px;
+}
+
+#TicketPage address{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  float: right;
+}
+
+#TicketPage p a{
+  text-decoration: overline;
+  color: #363636;
+}
+
+#TicketPage p a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+#TicketPage td a{
+  text-decoration: overline;
+  color: #363636;
+}
+
+#TicketPage td a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+#TicketPage .backgroundimg{
+  background: url('../images/ponyo.jpg') no-repeat center center fixed;
+   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  width: 100%;
+}
+}
+
+/* ---------- Navigation Bar ---------- */
+#TicketPage header{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+#TicketPage .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#TicketPage ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#TicketPage ul.topnav li {
+  float: right;
+}
+
+#TicketPage ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#TicketPage ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#TicketPage ul.topnav.icon{
+  display: none;
+}
+
+#TicketPage .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #TicketPage ul.topnav{display: none;}
+
+  #TicketPage ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #TicketPage ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #TicketPage ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #TicketPage ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #TicketPage ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+/* ---------- Content ---------- */
+#TicketPage .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#TicketPage .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+#TicketPage .visit{
+ padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+#TicketPage .banner1{
+  padding: 30px;
+  margin:30px 30px 30px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#TicketPage .banner1 table{
+  width:100%;
+  padding: 10px;
+}
+
+#TicketPage .banner1 th{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #fb849d;
+  padding-top: 30px;
+  text-align: left;
+}
+
+#TicketPage .banner1 td{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#TicketPage .banner2{
+  padding: 30px;
+  margin:30px 30px 30px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#TicketPage .admissions{
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 20px;
+    background: none;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#TicketPage.admissions fieldset{
+    border: none;
+}
+
+#TicketPage.admissions legend {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#TicketPage .admissions label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#TicketPage .admissions input[type="number"],
+#TicketPage .admissions select {
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.27);
+    color:#696969;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+   
+}
+#TicketPage .admissions input[type="number"]:focus,
+#TicketPayment .admissions select:focus{
+    background: rgba(251, 131, 157, 0.24);
+}
+#TicketPage .admissions select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+#TicketPage .admissions .bubble{
+    background: #fb849d;
+    color: #fff;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    margin: 30px 30px 30px 20px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+#TicketPage #expiry .admissions{
+  display: inline;
+}
+
+#TicketPage .admissions input[type="submit"],
+#TicketPage .admissions input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#TicketPage .admissions input[type="submit"]:hover,
+#TicketPage .admissions input[type="button"]:hover
+{
+    background: #363636;
+}
+
+@media screen and (max-width: 530px){
+    #TicketPage h1{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+
+
+
+@media screen and (max-width:795px) {
+  #TicketPage .wrapper{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (min-width:796px) {
+  #TicketPage .small{
+    max-height: none !important;
+    font-size: 12px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:795px) {
+  #TicketPage .small{
+    max-height: auto !important;
+    display: block !important;
+  }
+
+  #TicketPage .small h1{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #TicketPage .small p{
+    font-size: 13px;
+    margin: 4px;
+    margin-bottom: 6px;
+    padding: 2px;
+    text-align: center;
+  }
+
+    #TicketPage .small address{
+    font-size: 13px;
+    margin: 4px;
+    margin-bottom: 6px;
+    padding: 2px;
+    text-align: center;
+  }
+
+  #TicketPage .small input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#TicketPage .small input[type="button"]:hover
+{
+    background: #363636;
+}
+}
+
+#TicketPage .small input[type=button]{
+  font-size: 15px;
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- TICKET OVERVIEW PAGE ---------------------------- */
+
+#TicketOverview h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  color: #363636;
+  padding: 30px;
+  text-align: center;
+}
+
+#TicketOverview h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#TicketOverview h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketOverview p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-kerning: 10px;
+}
+
+#TicketOverview .backgroundimg{
+  background: url('../images/ponyo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#TicketOverview header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#TicketOverview .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#TicketOverview ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#TicketOverview ul.topnav li {
+  float: right;
+}
+
+#TicketOverview ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#TicketOverview ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#TicketOverview ul.topnav.icon{
+  display: none;
+}
+
+#TicketOverview .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #TicketOverview ul.topnav{display: none;}
+
+  #TicketOverview ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #TicketOverview ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #TicketOverview ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #TicketOverview ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #TicketOverview ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+/* ---------- Content ---------- */
+
+#TicketOverview .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#TicketOverview .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+#TicketOverview .bounding{
+ padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+#TicketOverview p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 14px 12px 14px;
+  margin: 5px;
+  background-color: #363636;
+}
+
+#TicketOverview p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 14px 12px 14px;
+  margin: 5px;
+  background-color: #fb849d;
+}
+
+#TicketOverview .active {
+    background-color: #fb849d;
+}
+
+#TicketOverview .progressbuttons p{
+  display: inline;
+}
+
+#TicketOverview .banner1{
+  padding: 30px;
+  margin:30px 30px 0px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#TicketOverview .admissions{
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 20px;
+    background: none;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#TicketOverview.admissions fieldset{
+    border: none;
+}
+
+#TicketOverview.admissions legend {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#TicketOverview .admissions label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#TicketOverview .admissions input[type="number"],
+#TicketOverview .admissions select {
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.27);
+    color:#696969;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+   
+}
+#TicketOverview .admissions input[type="number"]:focus,
+#TicketOverview .admissions select:focus{
+    background: rgba(251, 131, 157, 0.24);
+}
+#TicketOverview .admissions select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+#TicketOverview .admissions .bubble{
+    background: #fb849d;
+    color: #fff;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    margin: 30px 30px 30px 20px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+#TicketOverview #expiry .admissions{
+  display: inline;
+}
+
+#TicketOverview .admissions input[type="submit"],
+#TicketOverview .admissions input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#TicketOverview .admissions input[type="submit"]:hover,
+#TicketOverview .admissions input[type="button"]:hover
+{
+    background: #363636;
+}
+
+@media screen and (max-width: 530px){
+    #TicketOverview h1{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:485px){
+  #TicketOverview p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px 8px 6px 8px;
+  margin: 2px;
+  background-color: #363636;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+#TicketOverview p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  margin: 2px;
+  background-color: #fb849d;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+  #TicketOverview .banner2{
+  padding: 30px;
+  margin:10px 10px 0px 10px;
+  background-color: rgba(209, 209, 209, 0.7);
+  }
+
+  #TicketOverview .admissions{
+    width: 250px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #TicketOverview .admissions input[type="button"]
+  {
+    position: relative;
+    display: block;
+    padding: 9px 29px 9px 29px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    width: 80%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:530px){
+
+#TicketOverview p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-kerning: 10px;
+  }
+
+  #TicketOverview h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+#TicketOverview h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 15px;
+  text-align: center;
+  }
+
+  #TicketOverview h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  text-align: center;
+  }
+
+}
+
+@media screen and (max-width:400px){
+  #TicketOverview p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  margin: 2px;
+  background-color: #363636;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+#TicketOverview p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  margin: 2px;
+  background-color: #fb849d;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- TICKET PAYMENT PAGE ---------------------------- */
+
+#TicketPayment h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  color: #363636;
+  padding: 30px;
+  text-align: center;
+}
+
+#TicketPayment h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketPayment h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketPayment p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-kerning: 10px;
+}
+
+#TicketPayment .backgroundimg{
+  background: url('../images/ponyo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#TicketPayment header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#TicketPayment .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#TicketPayment ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#TicketPayment ul.topnav li {
+  float: right;
+}
+
+#TicketPayment ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#TicketPayment ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#TicketPayment ul.topnav.icon{
+  display: none;
+}
+
+#TicketPayment .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #TicketPayment ul.topnav{display: none;}
+
+  #TicketPayment ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #TicketPayment ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #TicketPayment ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #TicketPayment ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #TicketPayment ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* ---------- Content ---------- */
+
+#TicketPayment .container{
+  width: 96%;
+  max-width: 1300px;
+  min-height: 900px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#TicketPayment .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+#TicketPayment .bounding{
+ padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+#TicketPayment p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 14px 12px 14px;
+  margin: 5px;
+  background-color: #363636;
+}
+
+#TicketPayment p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 14px 12px 14px;
+  margin: 5px;
+  background-color: #fb849d;
+}
+
+#TicketPayment .active {
+    background-color: #fb849d;
+}
+
+#TicketPayment .progressbuttons p{
+  display: inline;
+}
+
+#TicketPayment .banner1{
+  padding: 30px;
+  margin:30px 30px 0px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#TicketPayment .paymentinfo{
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 20px;
+    background: none;
+    font-family: 'Julius Sans One', sans-serif;
+}
+#TicketPayment.paymentinfo fieldset{
+    border: none;
+}
+#TicketPayment.paymentinfo legend {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#TicketPayment .paymentinfo label {
+    display: block;
+    margin-bottom: 8px;
+}
+#TicketPayment .paymentinfo input[type="text"],
+#TicketPayment .paymentinfo input[type="email"],
+#TicketPayment .paymentinfo select {
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.27);
+    color:#696969;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+   
+}
+#TicketPayment .paymentinfo input[type="text"]:focus,
+#TicketPayment .paymentinfo input[type="email"]:focus,
+#TicketPayment .paymentinfo select:focus{
+    background: rgba(251, 131, 157, 0.24);
+}
+#TicketPayment .paymentinfo select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+#TicketPayment .paymentinfo .bubble{
+    background: #fb849d;
+    color: #fff;
+    height: 30px;
+    width: 200px;
+    display: inline-block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    margin: 30px 30px 30px 20px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+#TicketPayment #expiry .paymentinfo{
+  display: inline;
+}
+
+#TicketPayment .paymentinfo input[type="submit"],
+#TicketPayment .paymentinfo input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#TicketPayment .paymentinfo input[type="submit"]:hover,
+#TicketPayment .paymentinfo input[type="button"]:hover
+{
+    background: #363636;
+}
+
+@media screen and (max-width: 530px){
+    #TicketPayment h1{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:485px){
+  #TicketPayment p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px 8px 6px 8px;
+  margin: 2px;
+  background-color: #363636;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+#TicketPayment p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  margin: 2px;
+  background-color: #fb849d;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+  #TicketPayment .banner1{
+  padding: 30px;
+  margin:10px 10px 0px 10px;
+  background-color: rgba(209, 209, 209, 0.7);
+  }
+
+  #TicketPayment .paymentinfo{
+    width: 250px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #TicketPayment .paymentinfo input[type="button"]
+  {
+    position: relative;
+    display: block;
+    padding: 9px 29px 9px 29px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    width: 80%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- TICKET RECIEPT PAGE ---------------------------- */
+
+#TicketReciept h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  color: #363636;
+  padding: 20px;
+  text-align: center;
+}
+
+#TicketReciept h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#TicketReciept h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#TicketReciept p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-kerning: 10px;
+  text-align: center;
+}
+
+#TicketReciept .backgroundimg{
+  background: url('../images/ponyo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#TicketReciept header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#TicketReciept .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#TicketReciept ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#TicketReciept ul.topnav li {
+  float: right;
+}
+
+#TicketReciept ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#TicketReciept ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#TicketReciept ul.topnav.icon{
+  display: none;
+}
+
+#TicketReciept .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #TicketReciept ul.topnav{display: none;}
+
+  #TicketReciept ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #TicketReciept ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #TicketReciept ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #TicketReciept ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #TicketReciept ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* ---------- Content ---------- */
+
+#TicketReciept .container{
+  width: 96%;
+  max-width: 1300px;
+  min-height: 900px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#TicketReciept .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+#TicketReciept .bounding{
+ padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+#TicketReciept p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 14px 12px 14px;
+  margin: 5px;
+  background-color: #363636;
+}
+
+#TicketReciept p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 14px 12px 14px;
+  margin: 5px;
+  background-color: #fb849d;
+}
+
+#TicketReciept .active {
+    background-color: #fb849d;
+}
+
+#TicketReciept .progressbuttons p{
+  display: inline;
+}
+
+#TicketReciept .banner1{
+  padding: 30px;
+  margin:30px 30px 0px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#TicketReciept img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 0px;
+}
+
+
+
+
+@media screen and (max-width:485px){
+  #TicketReciept p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px 8px 6px 8px;
+  margin: 2px;
+  background-color: #363636;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+#TicketReciept p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  margin: 2px;
+  background-color: #fb849d;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 530px){
+    #TicketReciept h1{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #TicketReciept img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 0px;
+}
+}
+
+
+@media screen and (max-width:485px){
+  #TicketReciept p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px 8px 6px 8px;
+  margin: 2px;
+  background-color: #363636;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+#TicketReciept p a:hover{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  margin: 2px;
+  background-color: #fb849d;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  }
+
+  #TicketReciept .banner1{
+  padding: 30px;
+  margin:10px 10px 0px 10px;
+  background-color: rgba(209, 209, 209, 0.7);
+  }
+
+  #TicketReciept img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- INFORMATION PAGE ---------------------------- */
+
+
+#InformationPage h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 45px;
+  color: #F3CEC8;
+  padding: 30px;
+  text-align: center;
+}
+
+#InformationPage h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #ffe9e5;
+  padding: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#InformationPage h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #F3CEC8;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(16, 18, 20, 0.8);
+}
+
+#InformationPage h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#InformationPage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#InformationPage .backgroundimg{
+  background: url('../images/princess_mononoke.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#InformationPage header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#InformationPage .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#InformationPage ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#InformationPage ul.topnav li {
+  float: right;
+}
+
+#InformationPage ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#InformationPage ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#InformationPage ul.topnav.icon{
+  display: none;
+}
+
+#InformationPage .active {
+    background-color: #fb849d;
+}
+
+
+@media screen and (max-width:795px) {
+  #InformationPage ul.topnav{display: none;}
+
+  #InformationPage ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #InformationPage ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #InformationPage ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #InformationPage ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #InformationPage ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+/* ---------- Content ---------- */
+
+#InformationPage .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#InformationPage .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(235, 240, 244, 0.8);
+}
+
+#InformationPage .wrapper.text{
+  position: relative;
+  margin-top: 200px;
+}
+
+#InformationPage .wrapper.text img{
+  margin-top:0px;
+}
+
+#InformationPage .bounding{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#InformationPage .wrapper img{
+  width:100%;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+#InformationPage .banner{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(16, 18, 20, 0.8);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#InformationPage p a{
+  text-decoration: overline;
+  color: #363636;
+}
+
+#InformationPage p a:hover{
+  text-decoration: overline;
+  color: #fb849d;
+}
+
+#InformationPage .wrapper ul{
+  padding: 10px
+}
+
+#InformationPage .wrapper li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#InformationPage .calendar img{
+  width: 70%;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media screen and (max-width:768px){
+
+  #InformationPage .banner{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(16, 18, 20, 0.8);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  }
+
+  #InformationPage h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #F3CEC8;
+  padding: 10px;
+  text-align: center;
+  }
+
+#InformationPage h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: #ffe9e5;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  }
+#InformationPage h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 15px;
+  color: #F3CEC8;
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(16, 18, 20, 0.8);
+  }
+
+  #InformationPage p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: #363636;
+  padding: 10px;
+  font-kerning: 10px;
+  }
+
+  #InformationPage .wrapper li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- SPECIAL EVENTS PAGE ---------------------------- */
+
+
+#SpecialEvents h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 45px;
+  color: #F3CEC8;
+  padding: 30px;
+  text-align: center;
+}
+
+#SpecialEvents h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 30px;
+}
+
+#SpecialEvents p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 30px;
+  font-kerning: 10px;
+}
+
+#SpecialEvents .backgroundimg{
+  background: url('../images/catbus.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ---------- Navigation Bar ---------- */
+#SpecialEvents header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#SpecialEvents .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#SpecialEvents ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#SpecialEvents ul.topnav li {
+  float: right;
+}
+
+#SpecialEvents ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#SpecialEvents ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#SpecialEvents ul.topnav.icon{
+  display: none;
+}
+
+#SpecialEvents .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #SpecialEvents ul.topnav{display: none;}
+
+  #SpecialEvents ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #SpecialEvents ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #SpecialEvents ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #SpecialEvents ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #SpecialEvents ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* -------------- Content ------------------*/
+
+#SpecialEvents .container{
+  width: 96%;
+  max-width: 1300px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block; 
+}
+
+#SpecialEvents .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+#SpecialEvents .wrapper.text{
+  position: relative;
+  margin-top: 200px;
+}
+
+#SpecialEvents .wrapper.text img{
+  margin-top:0px;
+  width:100%;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+#SpecialEvents .bounding{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#SpecialEvents .banner{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(16, 18, 20, 0.8);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#SpecialEvents .banner1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(189, 189, 189, 0.60)
+}
+
+
+#SpecialEvents .banner2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(140, 140, 140, 0.74);
+}
+
+#SpecialEvents .banner3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(189, 189, 189, 0.60)
+}
+
+#SpecialEvents .banner4{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:30px 0px 30px 0px;
+  background-color: rgba(140, 140, 140, 0.74);
+}
+
+#SpecialEvents .banner4 ul{
+  padding: 10px
+}
+
+#SpecialEvents .banner4 li{
+  text-decoration: none;
+  color: #363636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+@media screen and (max-width:500px){
+#SpecialEvents h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #F3CEC8;
+  padding: 10px;
+  text-align: center;
+}
+
+  #SpecialEvents .wrapper.text{
+  position: relative;
+  margin-top: 100px;
+}
+
+#SpecialEvents h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 10px;
+  }
+
+#SpecialEvents p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #363636;
+  padding: 10px;
+  font-kerning: 10px;
+  }
+
+#SpecialEvents .banner4 li{
+  font-size: 14px;
+  list-style-type: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- CONTACT US PAGE ---------------------------- */
+
+#ContactUs h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  color: #363636;
+  padding: 30px;
+  text-align: center;
+}
+
+#ContactUs h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#ContactUs h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#ContactUs p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-kerning: 10px;
+}
+
+#ContactUs .backgroundimg{
+  background: url('../images/plane.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#ContactUs .clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#ContactUs header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#ContactUs .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#ContactUs ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#ContactUs ul.topnav li {
+  float: right;
+}
+
+#ContactUs ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#ContactUs ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#ContactUs ul.topnav.icon{
+  display: none;
+}
+
+#ContactUs .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #ContactUs ul.topnav{display: none;}
+
+  #ContactUs ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #ContactUs ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #ContactUs ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #ContactUs ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #ContactUs ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* ---------- Content ---------- */
+
+#ContactUs .container{
+  width: 96%;
+  max-width: 1300px;
+  min-height: 900px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+#ContactUs .wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#ContactUs .bounding{
+ padding-top: 60px;
+  padding-bottom: 20px;
+  margin:10px 0px 30px 0px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+#ContactUs .banner1{
+  padding: 30px;
+  margin:30px 30px 0px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#ContactUs .postcard{
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 20px;
+    background: none;
+    font-family: 'Julius Sans One', sans-serif;
+}
+#ContactUs.postcard fieldset{
+    border: none;
+}
+#ContactUs.postcard legend {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#ContactUs .postcard label {
+    display: block;
+    margin-bottom: 8px;
+}
+#ContactUs .postcard input[type="text"],
+#ContactUs .postcard input[type="email"],
+#ContactUs .postcard select {
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.27);
+    color:#696969;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+   
+}
+
+#ContactUs .postcard input[type="text"]:focus,
+#ContactUs .postcard input[type="email"]:focus,
+#ContactUs .postcard select:focus{
+    background: rgba(251, 131, 157, 0.24);
+}
+
+#ContactUs .postcard textarea {
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.27);
+    color:#696969;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+   
+}
+
+#ContactUs .postcard textarea:focus{
+    background: rgba(251, 131, 157, 0.24);
+}
+
+#ContactUs .postcard .bubble{
+    background: #fb849d;
+    color: #fff;
+    height: 30px;
+    width: 200px;
+    display: inline-block;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    margin: 30px 30px 30px 20px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+#ContactUs .postcard input[type="submit"],
+#ContactUs .postcard input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#ContactUs .postcard input[type="submit"]:hover,
+#ContactUs .postcard input[type="button"]:hover
+{
+    background: #363636;
+}
+
+@media screen and (max-width: 530px){
+    #ContactUs h1{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:485px){
+
+  #ContactUs .banner1{
+  padding: 30px;
+  margin:10px 10px 0px 10px;
+  background-color: rgba(209, 209, 209, 0.7);
+  }
+
+  #ContactUs .postcard{
+    width: 250px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #ContactUs .postcard input[type="button"]
+  {
+    position: relative;
+    display: block;
+    padding: 9px 29px 9px 29px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #fb849d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    width: 80%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- CONTACT THANKS PAGE ---------------------------- */
+
+#ContactThanks h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  color: #363636;
+  padding: 30px;
+  text-align: center;
+}
+
+#ContactThanks h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  color: #363636;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#ContactThanks h3{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  color: #fb849d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#ContactThanks p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #363636;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-kerning: 10px;
+}
+
+#ContactThanks .backgroundimg{
+  background: url('../images/plane.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+#ContactThanks header{
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+}
+
+#ContactThanks .logo img{
+    width:13%;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+#ContactThanks ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3cec8;
+}
+
+#ContactThanks ul.topnav li {
+  float: right;
+}
+
+#ContactThanks ul.topnav li a {
+    display: inline-block;
+    color: #363636;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+#ContactThanks ul.topnav li a:hover {
+  background-color: #fb849d;
+}
+
+#ContactThanks ul.topnav.icon{
+  display: none;
+}
+
+#ContactThanks .active {
+    background-color: #fb849d;
+}
+
+@media screen and (max-width:795px) {
+  #ContactThanks ul.topnav{display: none;}
+
+  #ContactThanks ul.topnav li{
+    width:100%;
+    display: block;
+  }
+
+  #ContactThanks ul.topnav.responsive{
+    display: block;
+    width:80%;
+    right:0;
+    top:60px;
+    position: absolute;
+  }
+
+    #ContactThanks ul.topnav.icon {
+      display: block!important;
+      background-color:#f3cec8;
+    }
+
+    #ContactThanks ul.topnav.icon li{
+      float:right;
+      text-align: right;
+    }
+  
+  #ContactThanks ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* ---------- Content ---------- */
+
+#ContactThanks .container{
+  width: 96%;
+  max-width: 1300px;
+  min-height: 900px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+#ContactThanks .wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#ContactThanks .bounding{
+ padding-top: 60px;
+  padding-bottom: 20px;
+  margin:10px 0px 30px 0px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+#ContactThanks .banner1{
+  padding: 30px;
+  margin:30px 30px 0px 30px;
+  background-color: rgba(209, 209, 209, 0.7);
+}
+
+#ContactThanks img{
+  width: 30%;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+@media screen and (max-width: 710px){
+    #ContactThanks h1{
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:485px){
+
+  #ContactThanks .banner1{
+  padding: 30px;
+  margin:10px 10px 0px 10px;
+  background-color: rgba(209, 209, 209, 0.7);
+  }
+}
